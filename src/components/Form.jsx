@@ -1,4 +1,5 @@
 import { useState } from "react"
+import DisplayCityData from "./DisplayCityData"
 
 function Form() {
   const [cityDetails, setCityDetails] = useState({
@@ -48,6 +49,8 @@ function Form() {
           </button>
         </form>
       </section>
+
+      <DisplayCityData citiesData={citiesData}/>
     </>
   )
 }
