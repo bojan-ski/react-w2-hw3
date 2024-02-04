@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  background-color: #eee;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.form-data div input{
+  display: block;
+  width: 100%;
+}
